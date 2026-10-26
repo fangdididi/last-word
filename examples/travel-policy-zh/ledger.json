@@ -1,0 +1,23 @@
+{
+ "precedence": {"公司制度": 5, "制度修订通知": 5, "部门细则": 3, "群消息": 1},
+ "claims": [
+  {"id": "P1", "subject": "住宿", "property": "每晚上限", "value": "500元", "kind": "公司制度", "scope": "一线城市",
+   "source": "差旅报销制度-2024版.pdf 第3.2条", "recorded_on": "2024-01-01", "effective_from": "2024-01-01",
+   "quote": "一线城市住宿每晚不超过500元。"},
+  {"id": "P2", "subject": "住宿", "property": "每晚上限", "value": "350元", "kind": "公司制度", "scope": "其他城市",
+   "source": "差旅报销制度-2024版.pdf 第3.2条", "recorded_on": "2024-01-01", "effective_from": "2024-01-01",
+   "quote": "其他城市住宿每晚不超过350元。"},
+  {"id": "P3", "subject": "住宿", "property": "每晚上限", "value": "600元", "kind": "制度修订通知", "scope": "一线城市",
+   "source": "行政通知〔2025〕12号", "recorded_on": "2025-06-15", "effective_from": "2025-07-01", "supersedes": ["P1"],
+   "quote": "自2025年7月1日起，一线城市住宿上限调整为每晚600元。"},
+  {"id": "P4", "subject": "住宿", "property": "每晚上限", "value": "800元", "kind": "群消息", "scope": "一线城市",
+   "source": "销售部微信群 2025-09-03 部门助理", "recorded_on": "2025-09-03",
+   "quote": "出差住宿现在可以报到800了。"},
+  {"id": "P5", "subject": "餐补", "property": "每日标准", "value": "100元", "kind": "部门细则",
+   "source": "销售部出差细则.docx 第2条", "recorded_on": "2025-03-01", "effective_from": "2025-03-01",
+   "quote": "出差餐补每日100元。"},
+  {"id": "P6", "subject": "餐补", "property": "每日标准", "value": "120元", "kind": "部门细则",
+   "source": "销售部出差细则-修订稿.docx 第2条", "recorded_on": "2025-03-01", "effective_from": "2025-03-01",
+   "quote": "出差餐补每日120元。"}
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "precedence": {"contract": 5, "amendment": 5, "statement_of_work": 4, "email": 2, "call_notes": 1},
+ "claims": [
+  {"id": "C1", "subject": "invoice", "property": "payment_days", "value": "30", "kind": "contract",
+   "source": "master-agreement.pdf p.3 s.6.1", "recorded_on": "2026-01-08", "effective_from": "2026-01-12",
+   "quote": "Each invoice is due thirty (30) days after receipt."},
+  {"id": "C2", "subject": "invoice", "property": "payment_days", "value": "45", "kind": "amendment",
+   "source": "amendment-1.pdf s.2", "recorded_on": "2026-02-20", "effective_from": "2026-03-01",
+   "supersedes": ["C1"], "quote": "Section 6.1 is replaced: invoices are due forty-five (45) days after receipt."},
+  {"id": "C3", "subject": "invoice", "property": "payment_days", "value": "60", "kind": "email",
+   "source": "mail 2026-04-02 from accounts@client, subject 'payment run'", "recorded_on": "2026-04-02",
+   "quote": "Our system pays all vendors at 60 days now."},
+  {"id": "C4", "subject": "invoice", "property": "payment_days", "value": "15", "kind": "amendment",
+   "source": "amendment-2.pdf s.1", "recorded_on": "2026-06-10", "effective_from": "2026-07-01",
+   "supersedes": ["C2"], "quote": "From 1 July 2026 invoices are due fifteen (15) days after receipt."},
+  {"id": "S1", "subject": "deliverable", "property": "revision_rounds", "value": "2", "kind": "statement_of_work",
+   "source": "sow-brand-refresh.pdf p.2", "recorded_on": "2026-01-12", "effective_from": "2026-01-12",
+   "quote": "Two rounds of revisions are included."},
+  {"id": "S2", "subject": "deliverable", "property": "revision_rounds", "value": "3", "kind": "call_notes",
+   "source": "notes/kickoff-call.md line 14", "recorded_on": "2026-01-15",
+   "quote": "Client asked for three rounds; we said probably fine."},
+  {"id": "S3", "subject": "deliverable", "property": "revision_rounds", "value": "3", "kind": "statement_of_work",
+   "source": "sow-brand-refresh-v2.pdf p.2", "recorded_on": "2026-01-12", "effective_from": "2026-01-12",
+   "quote": "Three rounds of revisions are included."}
+ ]
+}

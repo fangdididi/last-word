@@ -1,0 +1,10 @@
+{
+ "precedence": {"law_or_regulation": 9, "signed_agreement": 5, "amendment": 5, "official_policy": 4, "team_guideline": 3, "email": 2, "chat_or_call_notes": 1},
+ "claims": [
+  {"id": "C1", "subject": "<thing the question is about>", "property": "<the one attribute asked>",
+   "value": "<the value exactly as the document states it>", "kind": "signed_agreement",
+   "source": "<file name + page/section/line>", "recorded_on": "YYYY-MM-DD",
+   "effective_from": "YYYY-MM-DD", "effective_to": "", "scope": "*", "supersedes": [],
+   "quote": "<the one deciding sentence, verbatim, under 40 words>"}
+ ]
+}
